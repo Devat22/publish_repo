@@ -11,7 +11,7 @@ githubProperties.load(new FileInputStream(rootProject.file("github.properties"))
 def getVersionName = { ->
     return "1.0.2"
 }
-
+//pkg name
 def getArtificatId = { ->
     return "mathutils"
 }
